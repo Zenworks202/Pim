@@ -12,7 +12,7 @@ public class FinP : MonoBehaviour
     }
     public void Menuu()
     {
-        SceneManager.LoadScene(3);
+        SceneManager.LoadScene(2);
         Time.timeScale = 1;
     }
 
