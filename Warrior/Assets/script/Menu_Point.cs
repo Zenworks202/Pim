@@ -11,7 +11,10 @@ public class Menu_Point : MonoBehaviour
         SceneManager.LoadScene("SampleScene");
     }
 
-
+    public void LeLE()
+    {
+        SceneManager.LoadScene("Second");
+    }
 
     public void Exit()
     {

@@ -2,21 +2,19 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-public class Main : MonoBehaviour
+public class LevelsPanel : MonoBehaviour
 {
-
-    public void Play()
+    public void First()
     {
         SceneManager.LoadScene("SampleScene");
     }
 
-    public void Lele()
+    public void Sec()
     {
-        SceneManager.LoadScene("Levels");
+        SceneManager.LoadScene("Second");
     }
-
-    public void Exit()
+    public void Menu()
     {
-        Application.Quit();
+        SceneManager.LoadScene("Menu");
     }
 }
